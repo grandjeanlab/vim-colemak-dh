@@ -1,4 +1,4 @@
-vim-colemak
+vim-colemak-dh
 ===========
 
 Colemak key mappings for Vim. Trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
@@ -7,7 +7,7 @@ Install
 -------
 
 1. Use [vim-plug](https://github.com/junegunn/vim-plug).
-2. Add to `.vimrc`: `Plug 'jooize/vim-colemak'`
+2. Add to `.vimrc`: `Plug 'grandjeanlab/vim-colemak-dh'`
 3. Run `vim +PlugInstall`
 4. You probably want to load vim-colemak last. Reload the plugin at the bottom of your Vim configuration.
 
@@ -30,7 +30,7 @@ Colemak layout:                  |                 QWERTY layout:
  arstg MNEIo'         m   i      |     h   l        asdfg HJKL;'
  zxcdv kh,./            n        |       j          zxcvb nm,./
 
-(  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
+(  novx)  h = m (Left)     i = l (Right)     e = k (Up)     n = j (Down)
 
 (  novx)  l = b (Back word)            L = B (Back WORD)
 (  novx)  y = w (Forward word)         Y = W (Forward WORD)

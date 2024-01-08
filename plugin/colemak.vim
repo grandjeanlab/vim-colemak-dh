@@ -9,6 +9,19 @@
 " Require Vim >=7.0 {{{
     if v:version < 700 | echohl WarningMsg | echo "colemak.vim: You need Vim version 7.0 or later." | echohl None | finish | endif
 " }}}
+
+" unmap_added_by_jo {{{
+    nnoremap h m|xnoremap h m|onoremap h m|
+    nnoremap j n|xnoremap j n|onoremap j n|
+    nnoremap k e|xnoremap k e|onoremap k e|
+    nnoremap l i|xnoremap l i|onoremap l i|
+    nnoremap <C-W>h <C-W>m|xnoremap <C-W>h <C-W>m|
+    nnoremap <C-W>j <C-W>n|xnoremap <C-W>j <C-W>n|
+    nnoremap <C-W>k <C-W>e|xnoremap <C-W>k <C-W>e|
+    nnoremap <C-W>l <C-W>i|xnoremap <C-W>l <C-W>i|
+" }}}
+
+
 " Up/down/left/right {{{
     nnoremap m h|xnoremap m h|onoremap m h|
     nnoremap n j|xnoremap n j|onoremap n j|

@@ -19,7 +19,12 @@
     nnoremap <C-W>j <C-W>n|xnoremap <C-W>j <C-W>n|
     nnoremap <C-W>k <C-W>e|xnoremap <C-W>k <C-W>e|
     nnoremap <C-W>l <C-W>i|xnoremap <C-W>l <C-W>i|
-" }}}
+    nnoremap <C>h <C-W>m|xnoremap <C>h <C-W>m|
+    nnoremap <C>j <C-W>n|xnoremap <C>j <C-W>n|
+    nnoremap <C>k <C-W>e|xnoremap <C>k <C-W>e|
+    nnoremap <C>l <C-W>i|xnoremap <C>l <C-W>i|
+
+    " }}}
 
 
 " Up/down/left/right {{{

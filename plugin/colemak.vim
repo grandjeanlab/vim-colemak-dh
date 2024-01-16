@@ -19,10 +19,10 @@
     nnoremap <C-W>j <C-W>n|xnoremap <C-W>j <C-W>n|
     nnoremap <C-W>k <C-W>e|xnoremap <C-W>k <C-W>e|
     nnoremap <C-W>l <C-W>i|xnoremap <C-W>l <C-W>i|
-    nnoremap <C>h <C-W>m|xnoremap <C>h <C-W>m|
-    nnoremap <C>j <C-W>n|xnoremap <C>j <C-W>n|
-    nnoremap <C>k <C-W>e|xnoremap <C>k <C-W>e|
-    nnoremap <C>l <C-W>i|xnoremap <C>l <C-W>i|
+    nnoremap <C>h <C>m|xnoremap <C>h <C>m|
+    nnoremap <C>j <C>n|xnoremap <C>j <C>n|
+    nnoremap <C>k <C>e|xnoremap <C>k <C>e|
+    nnoremap <C>l <C>i|xnoremap <C>l <C>i|
 
     " }}}
 
